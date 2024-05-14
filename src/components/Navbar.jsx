@@ -1,8 +1,12 @@
 import { useState } from "react"
 
+    let count=0;
+
 export function Navbar({setCity}) {
 
         const [temp_city,set_temp_city]=useState("banglore");
+
+             console.log(++count);
 
     return (
 

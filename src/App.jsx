@@ -38,7 +38,8 @@ export default function App() {
       //   console.log(response.data);
         setWeather(response.data);
       } catch (error) {
-        console.error(error);
+            alert("enter correct city name or we dont have info about this city");
+               console.error(error);
       }
     }
 
